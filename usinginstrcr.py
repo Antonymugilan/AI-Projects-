@@ -13,7 +13,7 @@ class Userinfo_list(BaseModel):
     '''stores list of name and age'''
     users:list[UserInfo]
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-YZ8Hui3lKvDsMwm9youxT3BlbkFJBpmAwQe0WqADdRGCwKbL"
+os.environ["OPENAI_API_KEY"] = " YOUR _ API _ KEY "
 # Patch the OpenAI client
 client = instructor.from_openai(OpenAI())
 
